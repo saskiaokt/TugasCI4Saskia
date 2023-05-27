@@ -1,0 +1,14 @@
+ERROR - 2023-05-21 10:18:51 --> mysqli_sql_exception: Duplicate column name 'photo' in /Applications/XAMPP/xamppfiles/htdocs/belajarci/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/belajarci/system/Database/MySQLi/Connection.php(295): mysqli->query('ALTER TABLE `pr...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/belajarci/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `pr...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/belajarci/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `pr...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/belajarci/system/Database/Forge.php(745): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `pr...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/belajarci/app/Database/Migrations/2023-05-21-101735_AddPhotoColumnToProduct.php(17): CodeIgniter\Database\Forge->addColumn('products', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/belajarci/system/Database/MigrationRunner.php(877): App\Database\Migrations\AddPhotoColumnToProduct->up()
+#6 /Applications/XAMPP/xamppfiles/htdocs/belajarci/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/XAMPP/xamppfiles/htdocs/belajarci/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/belajarci/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/belajarci/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/belajarci/spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}

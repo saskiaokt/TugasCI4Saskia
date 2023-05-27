@@ -1,0 +1,27 @@
+CRITICAL - 2023-03-24 09:26:28 --> CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in /Applications/XAMPP/xamppfiles/htdocs/belajarci/app/Config/Routes.php on line 35
+in SYSTEMPATH/Router/RouteCollection.php on line 727.
+ 1 APPPATH/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->resource('/product', 'product')
+ 2 SYSTEMPATH/Router/RouteCollection.php(267): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2023-03-24 09:26:32 --> CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in /Applications/XAMPP/xamppfiles/htdocs/belajarci/app/Config/Routes.php on line 35
+in SYSTEMPATH/Router/RouteCollection.php on line 727.
+ 1 APPPATH/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->resource('/product', 'product')
+ 2 SYSTEMPATH/Router/RouteCollection.php(267): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2023-03-24 09:26:38 --> CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in /Applications/XAMPP/xamppfiles/htdocs/belajarci/app/Config/Routes.php on line 35
+in SYSTEMPATH/Router/RouteCollection.php on line 727.
+ 1 APPPATH/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->resource('/product', 'product')
+ 2 SYSTEMPATH/Router/RouteCollection.php(267): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
